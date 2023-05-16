@@ -1,0 +1,28 @@
+.box{
+	background: url(image/naika.webp);
+	width: 400px;
+	height: 400px;
+	background-size: cover;
+	margin: 100px auto;
+	display: block;
+	position: relative;
+}
+.box p{
+	width: 350px;
+	height: 210px;
+	color: red;
+	padding: 5px;
+	position: absolute;
+	border: 3px solid yellow;
+	background:rgba(0, 0, 71, 0.6);
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	margin: auto;
+	opacity: 0;
+	transition: .7s;
+}
+.box:hover p{
+	opacity: 1;
+}
